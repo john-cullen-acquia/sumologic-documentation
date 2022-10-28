@@ -157,7 +157,7 @@ The variable must already exist on the dashboard to add a query with a variable.
 To use a variable in a logs query, do the following:
 
 1. Go to your logs query.
-1. Add the variable name wrapped in double brackets `{\<variable_nam\>}}` to your query. In the following example `cluster` is the name of the variable.
+1. Add the variable name wrapped in double brackets `{{\<variable_nam\>}}` to your query. In the following example `cluster` is the name of the variable.
 
     ![Logs_variable_query_example.png](/img/dashboards-new/filter-template-variables/Logs_variable_query_example.png)
 
@@ -165,7 +165,7 @@ To use a variable in a logs query, do the following:
 
 #### String literal
 
-Wrap string literal variables in quotes `"{\<variable_nam\>}}"`. If your values are text you need to wrap the variable in quotes.
+Wrap string literal variables in quotes `"{{\<variable_nam\>}}"`. If your values are text you need to wrap the variable in quotes.
 
 When including** **the option to select all values (\*), use the [matches](/docs/search/search-query-language/search-operators/matches) operator. Otherwise `*` will not do an "all" filter, it will filter against the literal asterisk "\*" string.
 
